@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HealthCareSubscriber
+Bundle-SymbolicName: HealthCareSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: healthcaresubscriber.HealthcareActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: HealthCareSubscriber
+Import-Package: appointmentservice,
+ laboratoryservice,
+ medicinedeliveryservice,
+ medicineorderingservice,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
